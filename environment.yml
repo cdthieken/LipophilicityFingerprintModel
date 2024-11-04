@@ -1,0 +1,11 @@
+name: lipophilicity_fingerprint_model  # Name of the Conda environment
+channels:
+  - conda-forge  # Recommended channel for many scientific packages
+dependencies:
+  - python=3.12.4  # Use the specific Python version
+  - numpy          # Required for numerical operations
+  - pandas         # Required for data manipulation
+  - scikit-learn   # Required for machine learning algorithms
+  - rdkit=2024.03.5  # Specific version of RDKit based on your print statement
+  - matplotlib     # Required for plotting
+  - argcomplete    # Optional, for enhanced argparse functionality

@@ -1,0 +1,4 @@
+Conda Environment: lipophilicity_fingerprint_model
+Number of Estimators: 100
+Maximum Depth: 50
+RMSE: 0.8127
