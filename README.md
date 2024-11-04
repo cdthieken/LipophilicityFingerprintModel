@@ -11,7 +11,3 @@ git clone https://github.com/your-username/LipophilicityFingerprintModel.git
 cd LipophilicityFingerprintModel
 conda env create -f environment.yml
 conda activate lipophilicity_env
-
-# Running the model, can specify the hyperparameters differently:
-```bash 
-python lipophilicity_model/train_model.py --n_estimators 100 --max_depth 50
