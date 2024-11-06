@@ -12,7 +12,7 @@ cd LipophilicityFingerprintModel
 conda env create -f environment.yml
 conda activate lipophilicity_fingerprint_model
 ```
-## Usage Code (Can vary n_estimators and max_depth values, results.txt used 100 and 50)
+## Usage Code (Can vary n_estimators and max_depth values, results.txt used 100 and 50 respectively)
 
 ``` bash
 python lipophilicity_model/train_model.py --n_estimators 100 --max_depth 50
