@@ -10,4 +10,4 @@ Clone this repository and set up the environment:
 git clone https://github.com/your-username/LipophilicityFingerprintModel.git
 cd LipophilicityFingerprintModel
 conda env create -f environment.yml
-conda activate lipophilicity_env
+conda activate lipophilicity_fingerprint_model
