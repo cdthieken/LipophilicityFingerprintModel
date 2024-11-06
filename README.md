@@ -7,7 +7,7 @@ This project trains a MLPregression model to predict lipophilicity values using 
 Clone this repository and set up the environment:
 
 ```bash
-git clone https://github.com/cdthieken/LipophilicityFingerprintModel.git
+git clone https://github.com/your-username/LipophilicityFingerprintModel.git
 cd LipophilicityFingerprintModel
 conda env create -f environment.yml
 conda activate lipophilicity_fingerprint_model
