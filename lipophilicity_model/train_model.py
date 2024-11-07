@@ -38,7 +38,7 @@ def main(n_estimators, max_depth):
     # Drop rows with missing fingerprints
     lipo_data = lipo_data.dropna(subset=['morgan_fp'])
 
-    # Prepare features (X) and target (y)
+    # Prepare features and targets
     features = np.array(list(lipo_data['morgan_fp'].values))
     targets = lipo_data['exp'].values 
 
